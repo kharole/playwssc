@@ -133,7 +133,7 @@
 
 
                 // Create a new WebSocket.
-                var socket = new WebSocket('ws://localhost:9000/ws');
+                var socket = new WebSocket('ws://blooming-gorge-87948.herokuapp.com/ws');
 
 
                 // Handle any errors that occur.
@@ -144,7 +144,7 @@
 
                 // Show a connected message when the WebSocket is opened.
                 socket.onopen = function (event) {
-                    socketStatus.innerHTML = 'Connected to: ws://echo.websocket.org';
+                    socketStatus.innerHTML = 'Connected';
                     socketStatus.className = 'open';
                 };
 
